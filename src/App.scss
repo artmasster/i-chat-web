@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+#App {
+  .input {
+    display: flex;
+    width: 500px;
+    input {
+      flex: 1;
+      margin-right: 10px;
+      height: 50px;
+      padding: 0 10px;
+    }
+    button {
+      flex: 1;
+      max-width: 50px;
+      height: 50px;
+    }
+  }
+  .message {
+    margin-top: 10px;
+    width: 500px;
+    border: solid 1px #aaa;
+    padding: 10px;
+    .box {
+      display: flex;
+      margin: 5px 0;
+      .img {
+        flex: 1;
+        margin-right: 10px;
+        max-width: 60px;
+        height: 60px;
+        background-color: red;
+        border-radius: 50%;
+      }
+      .text_box {
+        flex: 1;
+        .name {
+          font-size: 14px;
+          font-weight: 700;
+          opacity: 0.7;
+        }
+        .text {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
